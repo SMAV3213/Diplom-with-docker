@@ -1,0 +1,6 @@
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/SMAV3213/FrontResortBooking.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/SMAV3213/ResortBookingDiplomNew.git
