@@ -2,7 +2,7 @@
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.9+-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-19.2+-61dafb?logo=react)](https://react.dev/)
-[![.NET](https://img.shields.io/badge/.NET-8.0+-512bd4?logo=dotnet)](https://dotnet.microsoft.com/)
+[![.NET](https://img.shields.io/badge/.NET-10.0+-512bd4?logo=dotnet)](https://dotnet.microsoft.com/)
 [![Docker](https://img.shields.io/badge/Docker-Latest-2496ed?logo=docker)](https://www.docker.com/)
 
 > Современная система бронирования номеров отеля "Baikal Breeze" с полной поддержкой адаптивного дизайна, JWT аутентификацией и админ-панелью.
@@ -643,5 +643,6 @@ Contributions welcome! Please:
 ---
 
 *Made with ❤️ for Resort Booking*
+
 
 
