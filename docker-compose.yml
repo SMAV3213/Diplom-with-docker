@@ -21,15 +21,13 @@ services:
       context: ./backend
       dockerfile: Dockerfile
     container_name: resort-booking-api
-    # ✅ УБРАЛИ "8080:8080" — API доступен ТОЛЬКО внутри Docker-сети
-    # Для отладки можно: "127.0.0.1:8080:8080"
+
     expose:
       - "8080"
     environment:
       ASPNETCORE_ENVIRONMENT: Production
       ASPNETCORE_URLS: "http://+:8080"
       ConnectionStrings__DefaultConnection: "Server=sqlserver,1433;Database=ResortBookingDb;User Id=sa;Password=nq0/^t&[vD:6.HawN&%Ul!@#;TrustServerCertificate=True;Connection Timeout=60;"
-      # ✅ Исправлены имена, чтобы совпадали с appsettings.json (Jwt:Key, не Jwt:SecretKey)
       Jwt__Key: "MEECAQAwEwYHKoZIzj0CAQYIKoZIzj0DAQcEJzAlAgEBBCAfXlEBe2oVMikhkIqRJXsvNwH+T3kLiWyj6tQ/gCg7ng=="
       Jwt__Issuer: "ResortBooking.API"
       Jwt__Audience: "ResortBooking.Client"
